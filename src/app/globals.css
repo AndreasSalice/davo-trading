@@ -1,26 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --black-bg: #040710;
+  --blue1: #0000ff;
+  --grey1: #57765d;
+  --grey2: #848484;
+  --grey3: #d9d9d9;
+  --green1: #00ff00;
+  --green2: #006d00;
+  --green3: #009900;
+  --green4: #0faa14;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-black-bg: var(--black-bg);
+  --color-blue1: var(--blue1);
+  --color-grey1: var(--grey1);
+  --color-grey2: var(--grey2);
+  --color-grey3: var(--grey3);
+  --color-green1: var(--green1);
+  --color-green2: var(--green2);
+  --color-green3: var(--green3);
+  --color-green4: var(--green4);
+  --font-jak: "Plus Jakarta Sans", sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--black-bg);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: clip;
+  width: 100%;
+  max-width: 100%;
 }
