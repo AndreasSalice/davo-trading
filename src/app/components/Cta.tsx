@@ -30,10 +30,10 @@ export default function Cta() {
       </div>
 
       <p className="font-medium font-jack text-[22px] xl:text-[35px] text-center mx-11 bg-gradient-to-r from-white to-grey1 bg-clip-text text-transparent tracking-tight">
-        Commence a gagner de l'argent
+        {"Commence a gagner de l'argent"}
       </p>
       <p className="font-jak text-[10px] xl:text-[14px] text-white opacity-50 font-medium mt-1">
-        Rejoins le Telegram et commence a gagner de l’argent
+        {"Rejoins le Telegram et commence a gagner de l’argent"}
       </p>
 
       <a

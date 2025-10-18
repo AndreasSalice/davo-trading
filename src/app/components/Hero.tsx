@@ -84,7 +84,7 @@ export default function Hero() {
             href="https://t.me/DAVOTRADING"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center bg-[#4E505D] h-12 px-5 rounded-3xl mt-12 hover:scale-105 transition-transform duration-300 ease-in-out transform-gpu"
+            className="flex items-center bg-[#4E505D] h-12 px-5 rounded-3xl mt-9 md:mt-12 hover:scale-105 transition-transform duration-300 ease-in-out transform-gpu"
           >
             <Image
               src="/telegram-logo.png"
