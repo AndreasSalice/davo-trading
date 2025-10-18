@@ -3,7 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "DAVO Trading",
-  description: "Trader website",
+  description:
+    "Davo Trading - Conseiller financier spécialisé sur l'or (XAU/USD).Expert du marché de l'or, j'accompagne les traders et investisseurs dans leurs décisions grâce à des analyses précises et une stratégie éprouvée.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
