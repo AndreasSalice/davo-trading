@@ -37,7 +37,7 @@ export default function Cta() {
       </p>
 
       <a
-        href="https://t.me/DAVOTRADING" // link to your Telegram channel
+        href="https://t.me/Davotradinggs" // link to your Telegram channel
         target="_blank"
         rel="noopener noreferrer"
         className="group relative mt-10 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105"

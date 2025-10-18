@@ -81,7 +81,7 @@ export default function Hero() {
           </div>
 
           <a
-            href="https://t.me/DAVOTRADING"
+            href="https://t.me/Davotradinggs"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center bg-[#4E505D] h-12 px-5 rounded-3xl mt-9 md:mt-12 hover:scale-105 transition-transform duration-300 ease-in-out transform-gpu"
