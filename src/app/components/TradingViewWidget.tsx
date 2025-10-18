@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, memo } from "react";
 
 function TradingViewWidget() {
-  const container = useRef(null);
+  const container = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     // Clean up old script if hot-reloaded
