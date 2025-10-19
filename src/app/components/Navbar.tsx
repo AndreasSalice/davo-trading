@@ -58,7 +58,7 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#services" className="hover:text-orange1">
-              Nos Services
+              Mes Services
             </a>
           </li>
           <li>

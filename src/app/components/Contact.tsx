@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="mt-15 mb-20 flex flex-col justify-center items-center w-screen relative"
+      className="mt-15  flex flex-col justify-center items-center w-screen relative"
     >
       <div
         data-aos="fade-up"
@@ -29,16 +29,16 @@ export default function Contact() {
         </p>
 
         {/* Description */}
-        <p className="font-jak font-regular leading-6 text-white text-[9.5px] lg:text-[11px] max-w-80 sm:max-w-90 md:max-w-110 lg:max-w-140 opacity-50 mt-2 lg:mt-4 text-center">
-          Rejoins mon canal Telegram, où je partage mes analyses, mes signaux en
+        <p className="font-jak font-regular leading-6 text-white text-[10px] lg:text-[12px] max-w-80 sm:max-w-90 md:max-w-110 lg:max-w-140 opacity-50 mt-2 lg:mt-4 text-center">
+          Rejoins mon canal Telegram où je partage mes analyses, mes signaux en
           temps réel et mes conseils pour trader l’or avec efficacité. Tu y
           trouveras également des retours d’expérience, des résultats
-          hebdomadaires, et une communauté active de traders passionnés.
+          hebdomadaires, et une communauté active de personnes passionnés.
         </p>
 
         {/* Telegram Button */}
         <a
-          href="https://t.me/Davotradinggs" // link to your Telegram channel
+          href="https://t.me/+bMVroc3B2-plYmVk" // link to your Telegram channel
           target="_blank"
           rel="noopener noreferrer"
           className="group relative mt-10 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105"

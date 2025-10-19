@@ -8,7 +8,7 @@ export default function Services() {
       className="flex flex-col justify-center items-center mt-15 lg:mt-20"
     >
       <p className="font-jak font-extrabold opacity-75 text-[24px] bg-gradient-to-r from-white to-grey1 bg-clip-text text-transparent tracking-tighter mt-3">
-        NOS SERVICES
+        MES SERVICES
       </p>
 
       <Image

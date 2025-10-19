@@ -24,6 +24,9 @@ export default function Footer() {
                 DAVO TRADING
               </span>
             </div>
+            <p className="font-jak text-[10px] mt-2 opacity-70">
+              © 2025 Davo Trading - Tous droits réservés.
+            </p>
           </a>
         </div>
 
@@ -43,7 +46,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="#services" className="hover:text-orange1 transition">
-                Nos Services
+                Mes Services
               </a>
             </li>
             <li>
@@ -74,6 +77,19 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="text-white flex flex-col items-center text-center mt-10 opacity-75 mx-3">
+        <p className="font-jak text-[10px] md:text-[11px] mt-2  ">
+          Le trading comporte un risque élevé de perte en capital, et il est de
+          la responsabilité de chaque utilisateur d'evaluer ses propres
+          décisions avant toute prise de position sur le marché.{" "}
+        </p>
+        <p className="font-jak text-[10px] md:text-[11px] mt-2 ">
+          Les performances passées ne garantissent pas les résultats futurs. En
+          utilisant ce site ou en suivant les signaux, vous reconnaissez
+          comprendre les risques liés au trading et acceptez de le faire sous
+          votre entière responsabilité.{" "}
+        </p>
       </div>
     </footer>
   );
