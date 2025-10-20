@@ -129,12 +129,15 @@ export default function Hero() {
         width={12}
         height={200}
       />
-
-      <div
-        data-aos="fade-left"
-        className="w-90 absolute -right-21 sm:-right-17 md:-right-12 lg:-right-0 xl:right-20 2xl:right-48 top-76 md:top-58 lg:top-76 scale-50 sm:scale-55 md:scale-60 lg:scale-65 xl:scale-75 rounded-2xl overflow-hidden opacity-70"
-      >
-        <MiniChart></MiniChart>
+      <div className="opacity-70">
+        <Image
+          data-aos="fade-left"
+          className="absolute right-0 top-103 sm:top-98 md:top-83 lg:top-95  scale-96 sm:scale-100 md:scale-110 lg:scale-120 xl:scale-135 sm:right-5 md:right-10 lg:right-25 xl:right-45 2xl:right-72"
+          src="/stat.png"
+          alt=""
+          width={200}
+          height={200}
+        />
       </div>
 
       <div
