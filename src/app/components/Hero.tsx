@@ -144,7 +144,7 @@ export default function Hero() {
         data-aos="fade-up"
         className="flex justify-center  mt-4 md:-mt-5 lg:-mt-14 -ml-48 md:-ml-56 lg:-ml-66 xl:-ml-70"
       >
-        <div className="scale-40 sm:scale-45 md:scale-50 lg:scale-55 xl:scale-61 w-120 opacity-70 lg:opacity-90">
+        <div className="scale-40 sm:scale-45 md:scale-50 lg:scale-55 xl:scale-60 w-120 opacity-70 lg:opacity-90">
           <TradingViewWidget />
         </div>
       </div>
